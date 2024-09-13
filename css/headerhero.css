@@ -1,0 +1,270 @@
+@font-face {
+    font-family: first;
+    src: url(/font/Ubuntu-Light.ttf);
+}
+
+@font-face {
+    font-family: second;
+    src: url(/font/IBMPlexMono-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #292F36;
+}
+:root {
+    --primary-color: #12F7D6;
+}
+.container {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.header {
+    width: 95vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #292F36;
+}
+
+.header .logo {
+    font-size: 24px;
+    color: var(--primary-color);
+    font-family: second;
+}
+
+.header .nav {
+    display: flex;
+    gap: 20px;
+}
+
+.header .nav a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 18px;
+    font-family: second;
+}
+
+.header .search {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.header .search input {
+    border: none;
+    background: none;
+    color: #fff;
+    outline: none;
+    padding: 5px;
+}
+
+.header .search i {
+    color: var(--primary-color);
+}
+
+.header .social {
+    display: flex;
+    gap: 20px;
+    font-family: second;
+}
+
+.header .social a {
+    color: var(--primary-color);
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.sidebar {
+    position: fixed;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sidebar a {
+    color: var(--primary-color);
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.main {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    width: 85vw;
+    margin-top: 50px;
+}
+
+.profile-card {
+    font-family: second;
+    background-color: #292F36;
+    padding: 20px;
+    /* border-radius: 10px; */
+    border-top-left-radius: 7vw ;
+    border-bottom-right-radius: 7vw ;
+    position: relative;
+    width: 300px;
+    border: 4px solid white;
+    text-align: center;
+}
+
+.profile-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 3.9px solid var(--primary-color);;
+    /* border-radius: 10px; */
+    border-top-left-radius: 7vw ;
+    border-bottom-right-radius: 7vw ;
+    z-index: -1;
+}
+
+.profile-card img {
+    width: 100px;
+    height: 100px;
+    border: 4px solid var(--primary-color);;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.profile-card h2 {
+    margin: 0;
+    font-size: 24px;
+    color: white
+}
+
+.profile-card p {
+    margin: 5px 0;
+    color: white
+}
+
+.profile-card .contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.profile-card .contact-info a {
+    color: white;
+    text-decoration: none;
+}
+
+.profile-card .skills {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+.profile-card .skills span {
+    background-color: #12F7D6;
+    color: #000000;
+    font-weight: 900;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.profile-card .download-cv {
+    /* font-family: first; */
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    color: #1e1e1e;
+    width: 70%;
+    margin-left: 20px;
+    padding: 10px 10px;
+    border-radius: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 600px;
+    font-family: first;
+    margin-top: 30px;
+}
+
+.content h1 {
+    font-size: 48px;
+    color: white;
+}
+
+.content h1 span {
+    color: var(--primary-color);
+}
+
+.content p {
+    color: white;
+    font-size: 18px;
+}
+
+.content .contact {
+    word-spacing: 20px;
+    color: var(--primary-color);
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 48px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.identity{
+    font-size: 15px;
+    color: var(--primary-color);
+}
+
+.stats {
+    margin-top: 30px;
+    font-family: second;
+    background-color: #1A1E23;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 200px;
+    height: 350px;
+    border-radius: 15%;
+    
+}
+
+.stats .stat {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.stats .stat span {
+    font-size: 50px;
+    color: var(--primary-color);
+}

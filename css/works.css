@@ -1,0 +1,41 @@
+
+.container3 {
+    border-top: 1px solid #413d3d;
+    padding: 50px 0;
+    text-align: center;
+    font-family: second;
+}
+.works-title {
+    font-size: 48px;
+    color: var(--primary-color);
+    margin: 20px 0;
+    text-decoration: 10px  underline;
+}
+.description {
+    font-size: 16px;
+    color: #b3b3b3;
+    margin-bottom: 40px;
+}
+.view-website {
+    margin-bottom: 20px;
+}
+.view-website a{
+    font-size: 24px;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel img {
+    width: 300px;
+    height: auto;
+    margin: 0 20px;
+}
+.carousel .arrow {
+    font-size: 48px;
+    color: #666;
+    cursor: pointer;
+}

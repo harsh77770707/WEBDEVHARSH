@@ -1,0 +1,96 @@
+
+.container4 {
+    border-top: 1px solid #413d3d;
+    padding: 50px;
+    text-align: center;
+    font-family: second;
+}
+.header3 {
+    margin-bottom: 50px;
+}
+.header3 .icon {
+    font-size: 50px;
+    color: var(--primary-color);
+}
+.header3 h1 {
+    font-size: 48px;
+    color: var(--primary-color);
+    margin: 10px 0;
+}
+.header3 p {
+    font-size: 16px;
+    color: #cccccc;
+}
+.blog-post {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2a2a2a;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.blog-post img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.blog-post .content {
+    text-align: left;
+}
+.blog-post .content h2 {
+    font-size: 24px;
+    color: var(--primary-color);
+    margin: 0 0 10px 0;
+}
+.blog-post .content p {
+    font-size: 16px;
+    color: #cccccc;
+    margin: 0 0 10px 0;
+}
+.blog-post .content .read-more {
+    color: #00d1b2;
+    text-decoration: none;
+    font-size: 16px;
+}
+.blog-post .content .meta {
+    font-size: 14px;
+    color: #cccccc;
+}
+.blog-post .content .meta span {
+    margin-right: 10px;
+}
+.buttons {
+    margin-top: 30px;
+}
+.buttons .btn {
+    background-color: var(--primary-color);
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: 900;
+}
+.buttons .btn2 {
+    color: #000000;
+    border: 2px solid #00bfa5;
+    /* border: none; */
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: 900;
+}
+.btn:hover{
+    background-color: aqua;
+}
+.btn2:hover{
+    background-color: aqua;
+}
